@@ -1,6 +1,6 @@
 # alpine-ruby-dev
 
-A lightweight [alpine linux](https://alpinelinux.org) docker image containing ruby and small set packages necessary to satisfy the dependencies of a basic ruby web app served with [puma](http://puma.io/).
+A lightweight [alpine linux](https://alpinelinux.org) docker image containing ruby and a small set packages necessary to satisfy the dependencies of a basic ruby web app served with [puma](http://puma.io/).
 
 ## packages
 
@@ -15,5 +15,5 @@ A lightweight [alpine linux](https://alpinelinux.org) docker image containing ru
 ## usage
 
 ```bash
-docker run -t jwigley/alpine-ruby
+docker run -t jwigley/alpine-ruby-dev
 ```
