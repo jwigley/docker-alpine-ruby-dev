@@ -1,8 +1,8 @@
 FROM alpine:latest
 
 ENV RUBY_MAJOR 2.4
-ENV RUBY_VERSION 2.4.2
-ENV BUNDLER_VERSION 1.15.4
+ENV RUBY_VERSION 2.4.6
+ENV BUNDLER_VERSION 2.0.2
 ENV BUNDLE_SILENCE_ROOT_WARNING=1
 
 # skip installing gem documentation
@@ -19,7 +19,7 @@ RUN apk update && apk add --no-cache \
   ruby-bigdecimal \
 	ruby-dev \
 	build-base \
-  libssl1.0 \
+  libssl1.1 \
   libc6-compat
 
 # install specific bundler version

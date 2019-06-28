@@ -4,12 +4,12 @@ A lightweight [alpine linux](https://alpinelinux.org) docker image containing ru
 
 ## packages
 
-- ruby (2.4.2)
+- ruby (2.4.6)
 - ruby-bundler
 - ruby-bigdecimal
 -	ruby-dev
 -	build-base
-- libssl1.0
+- libssl1.1
 - libc6-compat
 
 ## usage
